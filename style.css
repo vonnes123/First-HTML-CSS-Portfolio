@@ -1,0 +1,713 @@
+.materials {
+    font-family: 'Archivo Narrow', sans-serif;  
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    color: #c09748;
+    color: white;
+}
+.container{
+    background-color: white;
+    width: 100%; 
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mob-wrapper{
+    display: none;
+}
+
+
+@media (min-width: 1496px){
+.centercontainer{
+    width: 1496px;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+header {
+    background-color: black;
+    min-height: 6rem;
+    display: flex;
+    padding: 1rem 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+main {
+    background-size: cover;
+    min-height: 50rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+footer {
+    background-color: black;
+    min-height: 6rem;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+i {
+    font-size: 100px;
+    padding-top: 20px;
+}
+.tabletimage{
+    display: none;
+}
+.navbuttons {
+    font-family: 'Archivo Narrow', sans-serif;
+    padding: 11px 25px;
+    background-color: black;
+    display: inline-block;
+    border-radius: 5px;
+    border-color: white;
+    border:solid;
+    margin-right: 10px;
+}
+.navbuttons:hover {
+    background-color: white;
+    transition-duration: 200ms;
+    color: #c09748;
+    border-color: white;
+}
+.logo {
+    width: 18rem;
+    height: 6rem;
+    background-image: url(images/White\ logo.png);
+    background-color: black;
+    border-radius: 5px;
+}
+.logo:hover {
+    background-image: url(images/Golden\ logo.png);
+    transition-duration: 200ms;
+    background-color: white;
+    border-radius: 5px;
+}
+.herobox{
+    min-height: 50rem;
+    width: 100%;
+    background-image: url(images/night-sky2.png);
+    background-size: cover;
+    display: flex;
+    /*
+    picture by:
+    https://www.pexels.com/@snapwire
+    */
+}
+.herobox h1{
+    font-family: 'Archivo Narrow', sans-serif; 
+    font-size: 5rem;
+    color: white;
+}
+.textbox {
+    background-color: rgba(0, 0, 0, 0.664);
+    width:fit-content;
+    padding: 4rem;
+    margin-left: 3rem;
+    margin-top: 18rem;
+    height: fit-content;
+}
+.quote {
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: normal;
+}
+
+.quote h1{
+    font-family: 'Archivo Narrow', sans-serif; 
+    font-size: 5rem;
+    padding: 50px 0px 20px;
+}
+.article{
+    min-height: 300px;
+    display:flex;
+    margin-bottom: 1rem;
+    text-align: center;
+    padding: 50px 20px 30px 20px;
+    margin-top: 50px;
+}
+.article h1{
+    font-size: 4rem;
+    font-family: 'Archivo Narrow', sans-serif;
+    padding-bottom: 50px;
+}
+.article p{
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: left;
+}
+.article a{
+    text-shadow: none;
+    border-color: black;
+}
+
+.article .navbuttons:hover{
+    border-color: #c09748;
+}
+
+.contact{
+    font-size: 5rem;
+    text-align: center;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+.contact .navbuttons{
+    padding: 22px 50px;
+    margin: 50px 0px 50px;
+    border-color: black;
+}
+
+.contact .navbuttons:hover{
+    border-color: #c09748;
+}
+
+h1{
+    font-weight: bold;
+}
+.title{
+    font-size: 5rem;
+    text-align: center;
+    font-family: 'Archivo Narrow', sans-serif;
+    margin: 50px 0px 50px;
+}
+.contactpage{
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+.contactpage p{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.contactpage a{
+    color: black;
+}
+.importanttext{
+    font-weight: bold;
+}
+.importanttext:hover{
+    color: #c09748;
+    transition-duration: 200ms;
+}
+.icon {
+    font-size: 20rem;
+    padding-bottom: 50px;
+    padding-left: 20px;
+}
+.icon:hover{
+    color: #c09748;
+    transition-duration: 200ms;
+}
+.icon i{
+    font-size: 20rem;
+}
+.contactpage p{
+    font-size: 2rem;
+}
+.aboutme{
+    width: 1024px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+.aboutmetext{
+    font-size: 2rem;
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    padding-right: 10px;
+}
+.quotes{
+    font-size: 2rem;
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-right: 10px;
+}
+
+
+.cards{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    color: white;
+}
+
+.cards h1{
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.card1 {
+    background-image: url(images/code-img.png);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 307px;
+    width: 30%;
+}
+
+.card1:hover{
+    background-image: url(images/codeing-gif.gif);
+    color: #c09748;
+    transition-duration: 200ms;
+}
+.card2 {
+    background-image: url(images/Fencing-img.png);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 307px;
+    width: 30%;
+}
+.card2:hover{
+    background-image: url(images/Fencing-gif.gif);
+    color: #c09748;
+    transition-duration: 200ms;
+}
+.card3 {
+    background-image: url(images/book-png.png);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 307px;
+    width: 30%;
+}
+.card3:hover{
+    background-image: url(images/Book-gif.gif);
+    color: #c09748;
+    transition-duration: 200ms;
+}
+.card4 {
+    background-image: url(images/Quotes-png.png);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 307px;
+    width: 30%;
+}
+.card4:hover{
+    background-image: url(images/Quotes-gif.gif);
+    color: #c09748;
+    transition-duration: 200ms;
+}
+.card5 {
+    background-image: url(images/Hobbies-png2.png);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 307px;
+    width: 30%;
+}
+.card5:hover{
+    background-image: url(images/hobbies-gif.gif);
+    color: #c09748;
+    transition-duration: 200ms;
+}
+.card6 {
+    background-image: url(images/Achivments-png2.png);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 307px;
+    width: 30%;
+}
+.card6:hover{
+    background-image: url(images/Achivments-gif.gif);
+    color: #c09748;
+    transition-duration: 200ms;
+}
+.card1, .card2, .card3, .card4, .card5, .card6{
+    box-sizing: border-box;
+    padding: 30px 30px 20px 30px;
+    margin-bottom: 50px;
+}
+
+.cards h2{
+    font-family: 'Archivo Narrow', sans-serif; 
+    font-size: 2rem;
+    margin-top: 10px;
+
+}
+
+.cards p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+    margin-top: 10px;
+}
+
+/*
+The pop-up code is not mine I got it from here:
+https://codepen.io/sahil4test/pen/xERYvX
+*/
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 300ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup {
+    margin: 70px auto;
+    padding: 20px 20px 20px 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 1024px;  
+    height: 600px;
+    position: relative;
+    transition: 500ms;
+    text-align: center;
+}
+
+.popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.popup .close:hover {
+    color: #c09748;
+}
+
+.popup h2 {
+    margin-top: 10px;
+    color:black;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.popupcontent{
+    display: flex;
+    text-align: center;
+}
+.popupcontent p{
+    font-size: 1.7rem;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+}
+
+.highlight{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Archivo Narrow', sans-serif;
+    padding: 20px 20px 20px 20px;
+}
+
+.italic{
+    font-style: italic;
+    color: rgb(71, 71, 71);
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.assignments{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    color: white;
+    text-align: center;
+}
+
+.assignmentbox {
+    width: 28%;
+    min-height: 250px;
+    border: 3px solid;
+    margin-top: 50px;
+    background-color: black;
+    padding: 30px 30px 20px 30px;
+    border-radius: 5px;
+    border-color: black;
+}
+
+.assignmentbox h1 {
+    font-family: 'Archivo Narrow', sans-serif; 
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.assignmentbox p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.assignmentbox:hover {
+    background-color: white;
+    transition-duration: 300ms;
+    color: #c09748;
+    border-color: #c09748;
+}
+
+.assignmentopen{
+    padding-top: 100px;
+}
+
+.aboutmetext a{
+    color: black;
+}
+
+.aboutmetext a:hover{
+    color: #c09748;
+    transition-duration: 200ms;
+}
+
+.mob-nav{
+    display: none;
+}
+.mobileimage{
+    display: none;
+}
+@media (max-width: 1200px){
+.centercontainer{
+    width: 100%;
+}
+
+.article{
+    display: block;
+}
+
+.quote h1{
+    font-size: 3rem;
+}
+
+.textbox {
+    padding: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image{
+    display: none;
+}
+
+.tabletimage{
+    display: block;
+}
+.contactpage{
+    width: 100%;
+    padding: 0px;
+    margin: 20px;
+}
+.contactpage i{
+    display: none;
+}
+.popup{
+    margin: 50px auto;
+    width: 90%;
+    min-height: 500px;
+}
+
+.popup p {
+    font-size: 1.3rem;
+}
+
+.popup h2{
+    font-size: 1.5rem;
+}
+
+.aboutmetext{
+    font-size: 1.5rem;
+}
+
+.card1{
+    width: 45%;
+}
+.card2{
+    width: 45%;
+}
+.card3{
+    width: 45%;
+}
+.card4{
+    width: 45%;
+}
+.card5{
+    width: 45%;
+}
+.card6{
+    width: 45%;
+}
+.aboutme{
+    width: 100%;
+    padding: 0;
+}
+.aboutmetext{
+    padding: 20px;
+}
+}
+
+@media (max-width: 810px){
+nav{
+    display: none;
+}
+.contactpage p{
+    font-size: 1rem;
+}
+.contactpage a{
+    font-size: 1rem;
+}
+.title{
+    font-size: 3rem;
+}
+.assignmentbox {
+    width: 56%;
+}
+.popupimg{
+    display: none;
+}
+.card1{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card2{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card3{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card4{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card5{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card6{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mob-nav{
+    display: block;
+}
+header{
+    display: block;
+}
+.navbuttons {
+    padding: 11px 25px;
+    display: block;
+    text-align: center;
+}
+.aboutme{
+    display: block;
+}
+.aboutmeimage{
+    display: none;
+}
+.mobileimage{
+    display: block;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+
+@media (max-width: 700px){
+    .tabletimage{
+        display: none;
+    }
+    .contactpage p{
+        font-size: 0.7rem;
+    }
+    .contactpage a{
+        font-size: 0.7rem;
+    }
+    .popupcontent{
+        display: block;
+    }
+}
+
+@media (max-width: 420px){
+
+    .popupimg{
+        display: none;
+    }
+
+    .popup p {
+        font-size: 1rem;
+    }
+    
+    .popup h2{
+        font-size: 1.3rem;
+    }
+    .card1{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card2{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card3{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card4{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card5{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card6{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+h3{
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+}
